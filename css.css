@@ -85,7 +85,7 @@ header{
     width: 300px;
     height: 400px;
     position: absolute;
-    left: 1040px;
+    right: 0;
     top: 140px;
     border: solid black 2px;
     border-radius: 5px;

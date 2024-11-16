@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+     <script src="js.js"></script>
+     <link rel="stylesheet" href="css.css">
+     <link rel="stylesheet" href="pg-sansung.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <script src="js.js"></script>
+    <title>Bambu</title>
+</head>
+<body>
+
+    <header>
+        <div id="r">
+        
+            <img  src="imglogo-removebg-preview.png" id="logo" >
+ </div>
+
+ <div id="dd">
+ <div id="bambu"><h1 >BAMBU</h1></div>
+
+</div>
+
+<section id="carrinho">
+    <p id="pcarrinho" onclick="togglecarrinhos()">
+<lord-icon 
+src="https://cdn.lordicon.com/ggirntso.json"
+trigger="hover"
+colors="primary:#30e849,secondary:#109121"
+style="width:50px;height:40px">
+</lord-icon > </p>  </section>
+    
+        <div id="carrinhos">
+          <div id="carinhosdois"> <h2 id="h2-carrinhos">Carrinho</h2> </div>
+                
+                <ul id="itensCarrinho"></ul>
+    
+             <div id="itens-carrinhos">
+                    <p id="total">SubTotal: R$ 0,00</p>
+                <button id="but-carrinho" >Finalizar Compra</button>
+             </div>
+                
+                <div id="compra"></div>
+        </div>
+
+    
+    </header>
+
+    <div id="menu"></div>
+
+    <!--paginaçao viado-->
+
+    <div id="texto-notebook">
+        <h1 id="h1-texto-notebook">Notebook Samsung Galaxy Book Go Snapdragon 4GB - 128GB UFS 14” Full HD </h1>
+    </div>
+
+    <div id="partedecima">
+        <section id="sectiondaimagen">
+            <div id="conjutodasimagens"> 
+                <div id="imagemum"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/2af24cdd1f0139e4718f005112edc707.jpg" id="imagem-pquena-um"></div>
+                <div  id="imagemdois"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/4b956c1190911a69c54c10ebbff30113.jpg" id="imagem-pquena-dois"></div>
+                <div id="imagemtres"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/a68891174d0f4157bd6d33dffa74dd88.jpg" id="imagem-pquena-tres"></div>
+                <div id="imagemquatro"> <img src="https://a-static.mlcdn.com.br/1500x1500/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/cf03cbb38c3ed2b8f1396fc3c71e190f.jpg" id="imagem-pquena-quatro"></div>
+                </div>
+                <div id="divdasimagens"><img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/2af24cdd1f0139e4718f005112edc707.jpg" id="imagenesquerda"> </div>
+        </section>
+
+        <section id="sectiondasinformaçoes">
+            <p id="pum">Cor:<b>PRATA</b></p>
+            <img src="data:image/jpeg;base64,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" id="imagendireita">
+            
+            <div id="spanzero">
+            <span id="spanum">Vendido e entregue por</span>
+            <span id="spandois">Bambu</span> </div>
+            
+            <div>
+                <p id="pdois">R$ 2.249,00</p>
+                <p id="ptres">R$ 1.979,00 em 10x de 197,90 sem Juros</p>
+                <span id="spantres">ou</span>
+                <span id="spanquatro">R$ 1.781,10</span>
+                <span id="spancinco">no Pix</span>
+                <P id="pquatro">(10% de Desconto no pix)</P>
+            </div>
+            <div>
+                <button id="Compraragora"  onclick="adicionarAoCarrinho(' Notebook Samsung Galaxy Book', 1754.1)" >COMPRAR AGORA</button>
+            </div>
+        </section>
+    </div>
+   
+    <div id="garantia">
+        <section id="div-garantia">
+            <div id="div-img"><img id="img-garantia" src="https://th.bing.com/th/id/OIP.-4h_eFgOnrkkPORt9qDdjAHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7"></div>
+            <div><p><b id="b-garantia">Bambu Garante</b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+
+        <section id="div-garantia-dois">
+            <div id="div-img"><img id="img-garantia-dois" src="https://th.bing.com/th/id/OIP.tTwSXSSy1bDa6QuZ7hfMqAHaHa?w=194&h=194&c=7&r=0&o=5&pid=1.7" ></div>
+            <div><p><b id="b-garantia">Devolução gratuita </b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+    </div>
+
+
+
+    <div id="budescriçao">
+        <button onclick="toggleDescriçao()" id="botaodescriçao" ><p><b> Descrição do Produto</b</p> </button>
+    </div>
+
+    <div id="descriçao">
+       <p> Notebook Samsung Galaxy Book Go Snapdragon 4GB - 128GB UFS 14” Full HD Windows 11 NP340XLA-K06BR</p>
+
+<p>O Samsung Galaxy Book Go combina portabilidade, desempenho e estilo em um único dispositivo. Equipado com um processador Snapdragon , ele oferece eficiência e potência para suas tarefas diárias, como navegar na internet, assistir vídeos e trabalhar em documentos. Com 4GB de RAM e 128GB de armazenamento UFS, você tem espaço e rapidez para armazenar seus arquivos e rodar múltiplas aplicações simultaneamente.</p>
+
+<p> tela de 14 polegadas Full HD garante imagens nítidas e cores vibrantes, ideal para quem busca qualidade de imagem em vídeo chamadas, filmes ou projetos visuais. Rodando o Windows 11, você terá acesso às funcionalidades mais modernas do sistema operacional da Microsoft, com uma interface intuitiva e suporte para aplicativos otimizados.</p>
+
+<p>Além disso, sua construção leve e elegante permite que você leve o notebook para onde quiser, sendo perfeito para profissionais e estudantes que precisam de mobilidade e autonomia. Com conectividade Wi-Fi de última geração, bateria de longa duração e um design compacto, o Galaxy Book Go é a escolha certa para quem busca praticidade e desempenho em um só lugar.</p>
+
+ <p>Características principais:</p>
+<ul>
+    <li>Processador Snapdragon de alta eficiência.</li>
+    <li> 4GB de RAM para multitarefas.</li>
+    <li>Armazenamento rápido de 128GB UFS.
+    <li>Tela 14” Full HD, perfeita para entretenimento e trabalho.</li>
+    <li>Sistema operacional Windows 11.</li>
+    <li>Bateria duradoura para uso prolongado.</li>
+</ul>
+    </div>
+
+    <!--fim-->
+    <footer><p>&copy; Bambu.  Todos os direitos reservados</p>
+        <p>
+         <a id="a-footer-F" href="#">Facebook|</a>
+         <a id="a-footer" href="#">Instragram</a>
+        </p>
+           
+     </footer>
+
+    <script src="pg-sansung.js"></script>
+   
+</body>
+</html>

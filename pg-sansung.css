@@ -1,0 +1,216 @@
+#texto-notebook{
+    padding: 16px 8px;
+}
+#h1-texto-notebook{
+    font-family: sans-serif;
+    font-size: 28px;
+    padding: 16px 8px;
+    text-align: center;
+}
+
+#partedecima{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#sectiondaimagen{
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#conjutodasimagens{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#imagem-pquena-um,#imagem-pquena-dois,#imagem-pquena-tres,#imagem-pquena-quatro{
+    height: 40px;
+    width: auto;
+}
+#imagemum,#imagemdois,#imagemtres,#imagemquatro{
+    border: solid gray 1px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px black;
+}
+#imagemum:hover,#imagemdois:hover,#imagemtres:hover,#imagemquatro:hover{
+    border: solid rgb(0, 134, 255) 2px;
+}
+
+#imagenesquerda{
+    height: auto;
+    width: 500px;
+}
+
+#imagendireita{
+    height: auto;
+    width: 50px;
+    border: solid silver 1px;
+    cursor: pointer;
+}
+#sectiondasinformaçoes{
+ 
+    margin-left: 200px;
+    padding: 19px;
+}
+
+#garantia{display: flex;
+    flex-direction: row;
+    width: 401px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: solid rgb(187, 183, 183) 1px;
+    border-radius: 5px;
+    color: rgb(64, 64, 64);
+    font-size: 12px;
+    font-family: sans-serif;
+    }
+    #b-garantia{
+        font-size: 14px;
+        color: rgb(0, 134, 255);
+        text-decoration: underline;
+        
+    }
+    #div-garantia{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #div-garantia-dois{display: flex;
+        flex-direction: row;
+    }
+    #div-img{
+        margin: 10px;
+    }
+    #img-garantia{
+        height: auto;
+        width: 30px;
+        background-color: transparent;
+    }
+    #img-garantia-dois{
+        height: auto;
+        width: 30px;
+        background-color: transparent;
+    }
+
+
+p{
+    font-family:"roboto";
+}
+#pum{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #515151;
+}
+#pdois{
+    color: #999999;
+    text-decoration-line: line-through ;
+    text-decoration-color:#999999 ;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+#ptres{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #404040;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#pquatro{
+    margin-top: 1px;
+    color:  rgb(89, 192, 11);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#spanzero{
+    margin-top: 10px;
+    color: rgb(128, 128, 128);
+}
+#spandois{
+    color:green
+}
+#spanquatro{
+    font-size: 24px;
+    color: #404040;
+    font-family: sans-serif;
+}
+#spantres,#spancinco{
+    
+    color: #404040;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#spantres,#spanquatro,#spancinco{
+    margin-top: 1px;
+}
+
+#Compraragora{
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 15px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(89, 192, 11);
+    color: rgb(254, 254, 254);
+    transition: transform 0.2s ease,
+    background-color 0.2s ease;
+}
+#Compraragora:hover{
+    background-color: rgb(43, 226, 83);
+}
+#Compraragora:active{
+    transform: scale(0.95);
+    background-color: #1e7e34;
+    color: #005f73;
+}
+
+#budescriçao{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#botaodescriçao{
+    margin-top: 100px;
+    border: solid  1px;
+    background-color: #fafafa;
+    padding: 20px;
+    width: 100%;
+    border-radius: solid rgb(49, 49, 49)5px;
+    font-family:  sans-serif;
+    font-size: 16px;
+    
+    cursor: pointer;
+    transition: transform 0.2s ease,
+    background-color 0.2s ease;
+}
+#botaodescriçao:hover{ 
+    background-color: #cad0d1;
+}
+#botaocelular:active {
+    transform: scale(0.95);
+    background-color: #1e7e34;
+}
+
+
+#descriçao{
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 4px;
+    color: #575757;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}

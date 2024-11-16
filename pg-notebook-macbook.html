@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+     <script src="js.js"></script>
+     <link rel="stylesheet" href="css.css">
+     <link rel="stylesheet" href="pg-sansung.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <script src="js.js"></script>
+    <title>Bambu</title>
+</head>
+<body>
+
+    <header>
+        <div id="r">
+        
+            <img  src="imglogo-removebg-preview.png" id="logo" >
+ </div>
+
+ <div id="dd">
+ <div id="bambu"><h1 >BAMBU</h1></div>
+
+</div>
+
+<section id="carrinho">
+    <p id="pcarrinho" onclick="togglecarrinhos()">
+<lord-icon 
+src="https://cdn.lordicon.com/ggirntso.json"
+trigger="hover"
+colors="primary:#30e849,secondary:#109121"
+style="width:50px;height:40px">
+</lord-icon > </p>  </section>
+    
+        <div id="carrinhos">
+          <div id="carinhosdois"> <h2 id="h2-carrinhos">Carrinho</h2> </div>
+                
+                <ul id="itensCarrinho"></ul>
+    
+             <div id="itens-carrinhos">
+                    <p id="total">SubTotal: R$ 0,00</p>
+                <button id="but-carrinho" >Finalizar Compra</button>
+             </div>
+                
+                <div id="compra"></div>
+        </div>
+
+    
+    </header>
+
+    <div id="menu"></div>
+
+    <!--paginaçao viado-->
+
+    <div id="texto-notebook">
+        <h1 id="h1-texto-notebook">Notebook Macbook Air 13,3” Apple M1 8GB - 256GB SSD Cinza-espacial </h1>
+    </div>
+
+    <div id="partedecima">
+        <section id="sectiondaimagen">
+            <div id="conjutodasimagens"> 
+                <div id="imagemum"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/9fa7d0ee448f7dcaf3c0cb9557ae1d15.jpg" id="imagem-pquena-um"></div>
+
+                <div  id="imagemdois"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/9a286d2ecc8a0667943e0b7811829e8f.jpg" id="imagem-pquena-dois"></div>
+
+                <div id="imagemtres"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/46383fa1eacb425b6449b81aba32bd15.jpg" id="imagem-pquena-tres"></div>
+
+                <div id="imagemquatro"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/2d3b7892602387b1fa9b43e6eae1eddc.jpg" id="imagem-pquena-quatro"></div>
+                </div>
+                <div id="divdasimagens"><img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/9fa7d0ee448f7dcaf3c0cb9557ae1d15.jpg" id="imagenesquerda"> </div>
+        </section>
+
+        <section id="sectiondasinformaçoes">
+            <p id="pum">Cor:<b>Cinza-Espacial</b></p>
+            <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/9fa7d0ee448f7dcaf3c0cb9557ae1d15.jpg " id="imagendireita">
+            
+            <div id="spanzero">
+            <span id="spanum">Vendido e entregue por</span>
+            <span id="spandois">Bambu</span> </div>
+            
+            <div>
+                <p id="pdois">R$ 8.098,00</p>
+                <p id="ptres">R$ 7.906,00 em 10x de 790,6 sem Juros</p>
+                <span id="spantres">ou</span>
+                <span id="spanquatro">R$ 7.739,10 </span>
+                <span id="spancinco">no Pix</span>
+                <P id="pquatro">(10% de Desconto no pix)</P>
+            </div>
+            <div>
+                <button id="Compraragora"onclick="adicionarAoCarrinho(' Notebook Samsung Galaxy Book', 1754.1)" >COMPRAR AGORA</button>
+            </div>
+        </section>
+    </div>
+   
+    <div id="garantia">
+        <section id="div-garantia">
+            <div id="div-img"><img id="img-garantia" src="https://th.bing.com/th/id/OIP.-4h_eFgOnrkkPORt9qDdjAHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7"></div>
+            <div><p><b id="b-garantia">Bambu Garante</b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+
+        <section id="div-garantia-dois">
+            <div id="div-img"><img id="img-garantia-dois" src="https://th.bing.com/th/id/OIP.tTwSXSSy1bDa6QuZ7hfMqAHaHa?w=194&h=194&c=7&r=0&o=5&pid=1.7" ></div>
+            <div><p><b id="b-garantia">Devolução gratuita </b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+    </div>
+
+
+
+    <div id="budescriçao">
+        <button onclick="toggleDescriçao()" id="botaodescriçao" ><p><b> Descrição do Produto</b</p> </button>
+    </div>
+
+    <div id="descriçao">
+       <p> O MacBook Air 13,3" Apple M1 8GB - 256GB SSD Cinza-Espaço é um modelo de laptop ultracompacto e poderoso lançado pela Apple, equipado com o chip Apple M1, que trouxe uma revolução na linha de computadores da marca, especialmente em termos de desempenho e eficiência energética. Aqui estão algumas das principais características desse modelo:</p>
+
+       <p>Especificações principais:</p> 
+       <p> Tela: 13,3 polegadas Retina Display, com resolução de 2560 x 1600 pixels e suporte a P3 wide color e True Tone.</p>
+       <p> Processador (Chip): Apple M1, com CPU de 8 núcleos (4 de alto desempenho e 4 de eficiência), GPU de 7 ou 8 núcleos (dependendo da versão), e Neural Engine de 16 núcleos para tarefas de aprendizado de máquina.</p>
+      <p>  Memória RAM: 8GB de memória unificada (RAM integrada ao chip M1, o que melhora a velocidade e a eficiência).</p>
+       <p> Armazenamento: SSD de 256GB, com altas velocidades de leitura e gravação.</p>
+       <p> Câmera: Câmera FaceTime HD de 720p.</p>
+       <p> Bateria: Até 15 horas de navegação na web ou até 18 horas de reprodução de vídeo no Apple TV (dependendo do uso).</p>
+       <p> Conectividade: Wi-Fi 6, Bluetooth 5.0, 2 portas Thunderbolt/USB 4.</p>
+       <p> Teclado: Teclado Magic Keyboard com mecanismo tesoura.</p>
+       <p> Sistema Operacional: macOS, com todas as otimizações e recursos exclusivos da Apple, incluindo integração com o ecossistema de dispositivos Apple.</p>
+       <p> Principais vantagens do modelo:</p>
+       <p> Desempenho: O chip M1 é significativamente mais rápido e eficiente do que os chips Intel usados em versões anteriores, garantindo excelente performance tanto em tarefas cotidianas quanto em trabalhos mais pesados como edição de fotos e vídeos.
+        Autonomia de bateria: A eficiência energética do M1 proporciona uma bateria que pode durar o dia todo sem precisar de recarga, algo bastante impressionante para um laptop tão fino.</p>
+       <p> Design: O MacBook Air continua com o design leve e portátil, pesando apenas 1,29 kg, o que o torna fácil de transportar.</p>
+       <p> Sem ventilador: O modelo não possui ventilador, o que garante operação silenciosa mesmo durante uso intensivo.</p>
+      <p>  Pontos a considerar:</p>
+      <p>  O armazenamento de 256GB pode ser limitado para usuários que precisam de mais espaço, já que o SSD não pode ser expandido após a compra.</p>
+    <p>    A quantidade de RAM (8GB) é suficiente para a maioria dos usuários, mas quem trabalha com multitarefas pesadas ou softwares que exigem mais memória pode sentir a limitação.</p>
+       <p> Se você está procurando por um computador portátil, eficiente e com bom desempenho para uso geral, trabalho criativo ou até mesmo estudos, o MacBook Air com chip M1 é uma excelente opção.</p>
+    </div>
+
+    <!--fim-->
+    <footer><p>&copy; Bambu.  Todos os direitos reservados</p>
+        <p>
+         <a id="a-footer-F" href="#">Facebook|</a>
+         <a id="a-footer" href="#">Instragram</a>
+        </p>
+           
+     </footer>
+
+    <script src="pg-sansung.js"></script>
+   
+</body>
+</html>

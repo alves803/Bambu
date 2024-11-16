@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+     <script src="js.js"></script>
+     <link rel="stylesheet" href="css.css">
+     <link rel="stylesheet" href="pg-sansung.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <script src="js.js"></script>
+    <title>Bambu</title>
+</head>
+<body>
+
+    <header>
+        <div id="r">
+        
+            <img  src="imglogo-removebg-preview.png" id="logo" >
+ </div>
+
+ <div id="dd">
+ <div id="bambu"><h1 >BAMBU</h1></div>
+
+</div>
+
+<section id="carrinho">
+    <p id="pcarrinho" onclick="togglecarrinhos()">
+<lord-icon 
+src="https://cdn.lordicon.com/ggirntso.json"
+trigger="hover"
+colors="primary:#30e849,secondary:#109121"
+style="width:50px;height:40px">
+</lord-icon > </p>  </section>
+    
+        <div id="carrinhos">
+          <div id="carinhosdois"> <h2 id="h2-carrinhos">Carrinho</h2> </div>
+                
+                <ul id="itensCarrinho"></ul>
+    
+             <div id="itens-carrinhos">
+                    <p id="total">SubTotal: R$ 0,00</p>
+                <button id="but-carrinho" >Finalizar Compra</button>
+             </div>
+                
+                <div id="compra"></div>
+        </div>
+
+    
+    </header>
+
+    <div id="menu"></div>
+
+    <!--paginaçao viado-->
+
+    <div id="texto-notebook">
+        <h1 id="h1-texto-notebook">Notebook Samsung Galaxy Book4 Intel Core i5 8GB RAM SSD 512GB 15,6" Full HD </h1>
+    </div>
+
+    <div id="partedecima">
+        <section id="sectiondaimagen">
+            <div id="conjutodasimagens"> 
+                <div id="imagemum"> <img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book4-intel-core-i5-8gb-ram-ssd-512gb-156-full-hd-windows-11-np750xgj-kg3br/magazineluiza/238406900/25f1a5a0555b67ac6ca2f5f8aca83d5f.jpg" id="imagem-pquena-um"></div>
+                <div  id="imagemdois"> <img src="https://a-static.mlcdn.com.br/1500x1500/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/1ec1b0909ccdeb5118bba7b01aa3576c.jpg" id="imagem-pquena-dois"></div>
+                <div id="imagemtres"> <img src="https://a-static.mlcdn.com.br/1500x1500/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/9ae9d70f567617e493709068991fd5f3.jpg" id="imagem-pquena-tres"></div>
+                <div id="imagemquatro"> <img src="https://a-static.mlcdn.com.br/1500x1500/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/512a8dcdd488dd34e443eb7c95f5874e.jpg" id="imagem-pquena-quatro"></div>
+                </div>
+                <div id="divdasimagens"><img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book-go-snapdragon-4gb-128gb-ufs-14-full-hd-windows-11-np340xla-k06br/magazineluiza/236887900/2af24cdd1f0139e4718f005112edc707.jpg" id="imagenesquerda"> </div>
+        </section>
+
+        <section id="sectiondasinformaçoes">
+            <p id="pum">Cor:<b>Cinza</b></p>
+            <img src="https://a-static.mlcdn.com.br/1500x1500/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/9ae9d70f567617e493709068991fd5f3.jpg" id="imagendireita">
+            
+            <div id="spanzero">
+            <span id="spanum">Vendido e entregue por</span>
+            <span id="spandois">Bambu</span> </div>
+            
+            <div>
+                <p id="pdois">R$ 3.849,00</p>
+                <p id="ptres">R$ 3.479,00 em 10x de 347,90 sem Juros</p>
+                <span id="spantres">ou</span>
+                <span id="spanquatro">R$ 3.311,10</span>
+                <span id="spancinco">no Pix</span>
+                <P id="pquatro">(10% de Desconto no pix)</P>
+            </div>
+            <div>
+                <button id="Compraragora"onclick="adicionarAoCarrinho(' Notebook Sansung book 4', 3311.1)" >COMPRAR AGORA</button>
+            </div>
+        </section>
+    </div>
+   
+    <div id="garantia">
+        <section id="div-garantia">
+            <div id="div-img"><img id="img-garantia" src="https://th.bing.com/th/id/OIP.-4h_eFgOnrkkPORt9qDdjAHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7"></div>
+            <div><p><b id="b-garantia">Bambu Garante</b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+
+        <section id="div-garantia-dois">
+            <div id="div-img"><img id="img-garantia-dois" src="https://th.bing.com/th/id/OIP.tTwSXSSy1bDa6QuZ7hfMqAHaHa?w=194&h=194&c=7&r=0&o=5&pid=1.7" ></div>
+            <div><p><b id="b-garantia">Devolução gratuita </b></p>
+            <p>a sua compra, do pedido à entrega.</p></div>
+        </section>
+    </div>
+
+
+
+    <div id="budescriçao">
+        <button onclick="toggleDescriçao()" id="botaodescriçao" ><p><b> Descrição do Produto</b</p> </button>
+    </div>
+
+    <div id="descriçao">
+       <p> Especificações Principais:</p>
+       <p> Processador:</p>
+        
+      <p>  Intel Core i5 (provavelmente da 12ª ou 13ª geração, dependendo do modelo). Oferece um bom equilíbrio entre desempenho para tarefas cotidianas e multitarefa moderada.</p>
+       <p> Memória RAM:</p>
+        
+       <p> 8GB de RAM. Suficiente para a maioria das necessidades diárias, como navegação na internet, aplicativos de escritório e multitarefa leve. Para tarefas mais pesadas, como edição de vídeo ou execução de máquinas virtuais, seria interessante considerar um upgrade para 16GB.</p>
+       <p> Armazenamento:</p>
+        
+       <p> SSD de 512GB. Os SSDs são muito mais rápidos que os HDDs, o que resulta em inicializações mais rápidas, transferências de arquivos mais ágeis e uma experiência geral mais fluida.</p>
+       <p> Tela:</p>
+        
+      <p>  Tela Full HD de 15,6" (1920x1080). Ideal para tarefas diárias, consumo de mídia e trabalho de escritório. O tamanho de tela maior também oferece mais espaço para multitarefa.</p>
+       <p> Gráficos:</p>
+        
+       <p> Intel Iris Xe Graphics (se seguir as especificações típicas para modelos com Core i5). Embora não seja ideal para jogos pesados ou renderização 3D, suporta bem jogos casuais e tarefas de mídia.</p>
+        <p>Bateria:</p>
+        
+      <p>  As baterias dos modelos Samsung Galaxy Book geralmente oferecem uma autonomia boa, variando de 8 a 10 horas com uso normal (como navegação na web e aplicativos de escritório), mas pode variar conforme as configurações e o tipo de uso.</p>
+      <p>  Design e Construção:</p>
+        
+      <p>  O Galaxy Book4 tem um design leve e elegante, tornando-o fácil de transportar. É uma ótima opção para quem precisa de um laptop confiável para o dia a dia, seja para trabalho, estudos ou mobilidade.</p>
+     <p>   Sistema Operacional:</p>
+        
+      <p>  Geralmente vem com Windows 11 ou Windows 10, dependendo da configuração e ano de lançamento.</p>
+      <p>  Vantagens:</p>
+      <p>  Bom desempenho para a maioria das tarefas cotidianas (produtividade, navegação na web, mídia).</p>
+       <p> Design leve e portátil, ótimo para quem precisa de mobilidade.</p>
+        <p>SSD de 512GB oferece mais velocidade e bom espaço de armazenamento.</p>
+        <p>Tela Full HD, com boa qualidade de imagem para a maioria dos usos.</p>
+       <p> Desvantagens:</p>
+       <p> 8GB de RAM pode ser um pouco limitado para quem realiza multitarefas pesadas ou utiliza programas que exigem mais memória.</p>
+       <p> Gráficos integrados são suficientes para jogos casuais e tarefas diárias, mas não são ideais para jogos pesados ou edição de vídeos avançada.</p>
+        <p>Usos Recomendados:</p>
+        <p>Produtividade geral: Escritório, navegação, consumo de mídia e multitarefa leve.</p>
+       <p> Educação: Perfeito para estudantes, aprendizado remoto e cursos online.</p>
+       <p> Entretenimento casual: Assistir vídeos, streaming e jogos leves.</p>
+    </div>
+
+
+   
+
+    <!--fim-->
+    <footer><p>&copy; Bambu.  Todos os direitos reservados</p>
+        <p>
+         <a id="a-footer-F" href="#">Facebook|</a>
+         <a id="a-footer" href="#">Instragram</a>
+        </p>
+           
+     </footer>
+
+    <script src="pg-sansung.js"></script>
+   
+</body>
+</html>

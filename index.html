@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+     <link rel="stylesheet" href="css.css">
+
+    <title>Bambu</title>
+</head>
+<body>
+  
+    <header>
+        
+        <div id="r">
+        
+            <img  src="imglogo-removebg-preview.png" id="logo" >
+ </div>
+
+ <div id="dd">
+ <div id="bambu"><h1 >BAMBU</h1></div>
+
+</div>
+
+
+    <section id="carrinho">
+        <p id="pcarrinho" onclick="togglecarrinhos()">
+    <lord-icon 
+    src="https://cdn.lordicon.com/ggirntso.json"
+    trigger="hover"
+    colors="primary:#30e849,secondary:#109121"
+    style="width:50px;height:40px">
+    </lord-icon > </p>  </section>
+
+    <div id="carrinhos">
+      <div id="carinhosdois"> <h2 id="h2-carrinhos">Carrinho</h2> </div>
+            
+            <ul id="itensCarrinho"></ul>
+
+         <div id="itens-carrinhos">
+                <p id="total">SubTotal: R$ 0,00</p>
+            <button id="but-carrinho" >Finalizar Compra</button>
+         </div>
+            
+            <div id="compra"></div>
+    </div>
+    </header>
+
+
+
+    
+    <main>
+
+<section id="section1">
+
+    <div>
+        <h2>Bem vindo!</h2>
+    </div>
+</section>
+
+
+
+    <div id="tudo">
+
+    
+      <div id="setorum">
+        <h2 id="hcelular">Celulares</h2>
+      <section id="section-setorum">
+
+        <div id="celulares">
+            <img src="https://www.bing.com/th?id=OPHS.BnRR4tnHrNrm9g474C474&o=5&pid=21.1&w=148&h=148&qlt=100&dpr=1&bw=6&bc=FFFFFF" alt="" id="imgcelular">
+           <a id="adocelular" href="pg-xiaomi.html"> <h3 id="h3celular"> Smartphone Xiaomi Redmi 13C Dual 256GB + 8GB RAM </h3></a>
+            <p id="pcelular">R$ 1.417,50</p>
+            <button class="botaocelular" onclick="adicionarAoCarrinho('Redmi 13C', 1417.5)">Comprar</button>
+        </div>
+
+        <div id="celulares">
+            <img src="https://th.bing.com/th/id/OIP.JYriuVLeEpcTNpGjWFTFBwHaHa?w=183&h=183&c=7&r=0&o=5&pid=1.7" alt="" id="imgcelular">
+            <a id="adocelular" href="pg-apple.html">  <h3 id="h3celular"> Apple iPhone 14 Pro 512GB Preto-espacial</h3></a>
+            <p id="pcelular">R$ 7.799,00</p>
+            <button class="botaocelular"onclick="adicionarAoCarrinho('iPhone 14 Pro', 7799.00)">Comprar</button>
+        </div>
+
+        <div id="celulares">
+            <img src="https://www.bing.com/th?id=OPHS.bU%2bcR9l1qJzj9A474C474&o=5&pid=21.1&w=148&h=179&qlt=100&dpr=1&bw=6&bc=FFFFFF" alt="" id="imgcelular">
+            <a id="adocelular" href="pg-Celsansung.html"> <h3 id="h3celular">Smartphone Samsung Galaxy S24  256GB Preto </h3></a>
+            <p id="pcelular">R$ 4.499,10</p>
+            <button class="botaocelular"onclick="adicionarAoCarrinho('Galaxy S24', 4499.10)">Comprar</button>
+        </div>
+        
+        <div id="celulares">
+            <img src="https://www.bing.com/th?id=OPHS.20NBH2ASURZ%2bEA474C474&o=5&pid=21.1&w=148&h=148&qlt=100&dpr=1&bw=6&bc=FFFFFF" alt="" id="imgcelular">
+           <a id="adocelular" href="pg-motorola.html"> <h3 id="h3celular"> Smartphone Motorola Moto G84 256GB Azul </h3></a>
+            <p id="pcelular">R$ 1.869,15</p>
+            <button class="botaocelular"onclick="adicionarAoCarrinho(' Moto G84', 1869.15  )">Comprar</button>
+        </div>
+        <div id="celulares">
+            <img src="https://a-static.mlcdn.com.br/800x560/smartphone-positivo-s650-twist-5-max-128gb-chumbo-4g-octa-core-2gb-ram-65-cam-dupla-selfie-8mp-dual-chip/magazineluiza/236700200/c10e1a5adaad3e4998e5a017aaa7b305.jpg" alt="" id="imgcelular" class="imgcelularpositivo">
+            <a id="adocelular" href="pg-Positivo.html"><h3 id="h3celular"> Smartphone Positivo S650 Twist 5 Max</h3></a>
+            <p id="pcelular">R$ 499,00</p>
+            <button class="botaocelular"onclick="adicionarAoCarrinho('Smartphone Positivo',499)">Comprar</button>
+        </div>
+
+    </section>
+    </div>
+   
+
+    
+
+      <div id="setordois">
+        <h2 id="hnotebook">Notebooks</h2>
+        <section id="section-setorum">
+
+        <div id="notebook">
+            <img src="data:image/jpeg;base64,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" alt="" id="imgnotebook">
+            <a id="adonotebook" href="pg-Notebook sansung.html"><h3 id="h3notebook">Notebook Samsung Galaxy Book Go Snapdragon 4GB - 128GB UFS 14” Full HD   </h3></a >
+            <p id="pnotebook">R$ 1.754,10</p>
+            <button class="botaonotebook" onclick="adicionarAoCarrinho(' Notebook Samsung Galaxy Book', 1754.1)">Comprar</button>
+        </div>
+        
+        <div id="notebook">
+            <img src="https://a-static.mlcdn.com.br/800x560/notebook-samsung-galaxy-book4-intel-core-i5-8gb-ram-ssd-512gb-156-full-hd-windows-11-np750xgj-kg3br/magazineluiza/238406900/25f1a5a0555b67ac6ca2f5f8aca83d5f.jpg" alt="" id="imgnotebook-dois">
+            <a id="adonotebook" href="pg-notebook sansung book4.html"><h3 id="h3notebook">Notebook Samsung Galaxy Book4 Intel Core i5 8GB RAM SSD 512GB 15,6" Full HD  </h3></a >
+            <p id="pnotebook">R$  3.311,10</p>
+            <button class="botaonotebook" onclick="adicionarAoCarrinho(' Notebook Samsung Galaxy Book4', 3311.1)">Comprar</button>
+        </div>
+        
+        <div id="notebook">
+            <img src="https://a-static.mlcdn.com.br/800x560/notebook-macbook-air-133-apple-m1-8gb-256gb-ssd-cinza-espacial/magazineluiza/227625300/9fa7d0ee448f7dcaf3c0cb9557ae1d15.jpg" alt="" id="imgnotebook-tres">
+            <a id="adonotebook" href="pg-notebook-macbook.html"><h3 id="h3notebook">Notebook Macbook Air 13,3” Apple M1 8GB - 256GB SSD Cinza-espacial</h3></a >
+            <p id="pnotebook">R$ 7.739,10 </p>
+            <button class="botaonotebook" onclick="adicionarAoCarrinho(' Notebook Macbook ', 7739.1)">Comprar</button>
+        </div>
+        
+       
+
+        <div id="notebook">
+            <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g15-5530/media-gallery/gray/non-touch/coral/notebook-laptop-g15-5530-gray-gallery-1-v2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=554&qlt=100,1&resMode=sharp2&size=554,402&chrss=full" alt="" id="imgnotebookgame">
+            <a id="adonotebook" href="pg-Notebook Gamer G15.html"><h3 id="h3notebook">Notebook Gamer G15   </h3></a >
+            <p id="pnotebook">R$ 5.698,00</p>
+            <button class="botaonotebook" onclick="adicionarAoCarrinho(' Notebook Gamer G15', 5698.0, )">Comprar</button>
+      
+        </div>
+     
+    </section>
+    </div>
+   
+
+</div>
+
+
+
+    <footer><p>&copy; Bambu.  Todos os direitos reservados</p>
+       <p>
+        <a id="a-footer-F" href="#">Facebook|</a>
+        <a id="a-footer" href="#">Instragram</a>
+       </p>
+          
+    </footer>
+</main>
+</body>
+</html>
+
+<script src="js.js"></script>
